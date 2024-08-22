@@ -8,6 +8,5 @@ resource "aws_instance" "prod" {
     tags = {
       Name = "myec2"
     }
-    
-  
+
 }
