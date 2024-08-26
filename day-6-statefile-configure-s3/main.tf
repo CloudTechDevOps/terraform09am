@@ -5,7 +5,7 @@ resource "aws_instance" "test" {
     key_name = "awsaws"
     
   tags = {
-    Name = "testbackend"
+    Name = "dev-1"
   }
 }
 
