@@ -6,3 +6,5 @@ resource "aws_instance" "dev" {
       Name = "EKs"
     }
 }
+
+#command terraform import aws_instance.dev i-0e3f670f4ee619528
